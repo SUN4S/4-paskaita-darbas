@@ -37,7 +37,7 @@ p {
 }
 
 .col-1 {
-  height: 90%;
+  max-height: 90%;
 }
 
 .contentContainer {
@@ -49,12 +49,11 @@ p {
   display: flex;
   height: 90%;
   align-items: center;
-  flex: 0 1 0;
+  flex: 4 1 5;
 }
 
 .flexContainer img {
-  max-width: 30vh;
-  min-width: 5vh;
+  max-width: 40%;
   border-radius: 2rem;
   box-shadow: 1px 1px 3px black;
 }
