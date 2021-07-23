@@ -47,7 +47,6 @@ p {
 .flexContainer {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
-  height: 90%;
   align-items: center;
 }
 
