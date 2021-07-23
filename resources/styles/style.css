@@ -12,8 +12,7 @@ body {
 
 .container {
   display: flex;
-  max-width: 35vw;
-  min-width: 25vw;
+  width: 40vw;
   height: 40vh;
   justify-content: center;
   margin: 30vh auto 30vh auto;
