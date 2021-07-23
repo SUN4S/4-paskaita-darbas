@@ -12,7 +12,8 @@ body {
 
 .container {
   display: flex;
-  width: 35vw;
+  max-width: 35vw;
+  min-width: 25vw;
   height: 40vh;
   justify-content: center;
   margin: 30vh auto 30vh auto;
@@ -29,9 +30,14 @@ h1 {
 }
 
 p {
+  font-size: 0.9rem;;
   font-family: Montserrat;
   text-align: justify;
   padding: 1rem;
+}
+
+.col-1 {
+  height: 90%;
 }
 
 .contentContainer {
@@ -47,7 +53,8 @@ p {
 }
 
 .flexContainer img {
-  width: 30vh;
+  max-width: 30vh;
+  min-width: 5vh;
   border-radius: 2rem;
   box-shadow: 1px 1px 3px black;
 }
